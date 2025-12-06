@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="mediaqueries.css"/>
-
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-        <div class="logo">Stacey Thomas</div>
+      <div class="logo">Stacey Thomas</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -21,32 +20,39 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-        <div>Stacey Thomas</div>
+      <div>Stacey Thomas</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
           <span></span>
           <span></span>
         </div>
-        </div>
-        <div class="menu-links">
-            <li> <a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
       </div>
     </nav>
     <section id="profile">
-        <div class="section__pic-container profile-pic-container">
-            <img src="assets/profile-pic3.png" alt="Profile Picture"/>
+      <div class="section__pic-container profile-pic-container">
+        <img src="assets/profile-pic3.png" alt="Profile Picture" />
       </div>
       <div class="section__text">
-         <p class="section__text__p1">Hello I'm</p>
-            <h1 class="title">Stacey Thomas</h1>
+        <p class="section__text__p1">Hello I'm</p>
+        <h1 class="title">Stacey Thomas</h1>
         <p class="section__text__p2">Frontend Developer</p>
         <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/StaceyThomas_Resume_25D.docx')">Download Resume</button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/StaceyThomas_Resume_25D.docx')"
+          >
+            Download Resume
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
         </div>
         <div id="socials-container">
           <img
@@ -98,10 +104,10 @@
           </div>
           <div class="text-container">
             <p>
-              I'm a frontend developer with a passion for creating
-              beautiful and functional web applications. I have experience in HTML,
-              CSS, JavaScript, and various frontend frameworks. I love to learn new
-              technologies and improve my skills. In my free time, I enjoy 
+              I'm a frontend developer with a passion for creating beautiful and
+              functional web applications. I have experience in HTML, CSS,
+              JavaScript, and various frontend frameworks. I love to learn new
+              technologies and improve my skills. In my free time, I enjoy
               listening to audio books, jogging and cooking.
             </p>
           </div>
@@ -115,73 +121,73 @@
       />
     </section>
     <section id="experience">
-        <p class="experience-details-container"></p>
-        <h1 class="title">Experience</h1>
-         <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container">
-                     <h2 class="experience-sub-title">Frontend Development</h2>
-                        <div class="article-container">
-                            <article>
-                                <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                                />
-                                <div>
-                                <h3>HTML</h3>
-                                <p>Experienced</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                                />
-                                <div>
-                                <h3>CSS</h3>
-                                <p>Experienced</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                                />
-                                <div>
-                                <h3>JavaScript</h3>
-                                <p>Intermediate</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                                />
-                                <div>
-                                <h3>Angular TypeScript</h3>
-                                <p>Intermediate</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img
-                                src="./assets/checkmark.png"
-                                alt="Experience icon"
-                                class="icon"
-                                />
-                                <div>
-                                <h3>React</h3>
-                                <p>Basic</p>
-                                </div>
-                            </article>
-                        </div>
+      <p class="experience-details-container"></p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
                 </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Backend Development</h2>
-                    <div class="article-container">
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Angular TypeScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
@@ -226,11 +232,11 @@
                   <p>Intermediate</p>
                 </div>
               </article>
-              </div>
-              </div>
             </div>
-         </div>
+          </div>
+        </div>
+      </div>
     </section>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
