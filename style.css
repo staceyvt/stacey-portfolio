@@ -339,7 +339,7 @@ section{
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  /* justify-content: space-around;   */
   gap: 0.5rem;
 }
 
@@ -360,8 +360,11 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 400px;
-  height: 300px;
+  --project-img-height: 200px;
+  width: 100%;
+  height: var(--project-img-height);
+  display: block;
+  object-fit: cover; 
 }
 
 .project-title {
